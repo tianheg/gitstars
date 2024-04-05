@@ -18,16 +18,11 @@
         </h2>
       </a>
     </div>
-
-    <a :href="BRAND_URI">
-      <svg-icon name="github" class="text-2xl hover:opacity-50" />
-    </a>
   </header>
 </template>
 
 <script setup>
 import { useUserStore } from '@/store/user';
-import { BRAND_URI } from '@/constants';
 
 const { userinfo } = useUserStore();
 </script>

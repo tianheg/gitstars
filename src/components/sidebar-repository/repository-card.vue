@@ -53,7 +53,11 @@
 
   <div class="mb-2 text-xs font-bold text-[#666]">
     Updated
-    {{ formatUpdatedTime(repository.updated_at) }} ago
+    {{ formatUpdatedTime(repository.pushed_at) }} ago
+    <!-- 
+      updated_at => despcription
+      pushed_at  => commits
+     -->
   </div>
 
   <div class="flex justify-between text-xs font-bold text-[#76d0a3]">
