@@ -1,4 +1,4 @@
-export const AUTHOR = 'cfour-hi';
+export const AUTHOR = 'tianheg';
 export const BRAND = 'gitstars';
 export const GITHUB_COM = 'https://github.com';
 export const BRAND_URI = `${GITHUB_COM}/${AUTHOR}/${BRAND}`;
