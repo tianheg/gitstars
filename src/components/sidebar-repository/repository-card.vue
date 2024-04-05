@@ -52,7 +52,7 @@
   </div>
 
   <div class="mb-2 text-xs font-bold text-[#666]">
-    Updated at repository.pushed_at
+    Updated at {{ repository.pushed_at }}
     <!-- 
       updated_at => despcription
       pushed_at  => commits
