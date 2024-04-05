@@ -8,7 +8,7 @@
       </a>
 
       <a
-        :href="`${userinfo.html_url}?tab=repositories`"
+        :href="`${userinfo.html_url}?tab=stars`"
         rel="noopener noreferrer"
         class="ml-3 text-xl font-bold text-[#948aec] hover:underline"
       >
