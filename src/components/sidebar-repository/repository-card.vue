@@ -110,31 +110,6 @@ function handleClickTopic(e) {
     selectedTag: elTag.dataset.topic,
   });
 }
-
-function formatUpdatedTime(lastTime) {
-  const last = new Date(lastTime);
-  const now = new Date();
-  const msDiff = Math.abs(now - last);
-  const dayDiff = Math.floor(msDiff / 1000 / (24 * 60 * 60));
-  const monthDiff = Math.floor(dayDiff / 30);
-  const yearDiff = Math.floor(monthDiff / 12);
-  if (yearDiff > 1) {
-    return `${yearDiff} years`;
-  }
-  if (yearDiff === 1) {
-    return `${yearDiff} year`;
-  }
-  if (monthDiff > 1) {
-    return `${monthDiff} months`;
-  }
-  if (monthDiff === 1) {
-    return `${monthDiff} month`;
-  }
-  if (dayDiff > 1) {
-    return `${dayDiff} days`;
-  }
-  return `1 day`;
-}
 </script>
 
 <style scoped>
